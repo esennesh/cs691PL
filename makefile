@@ -80,7 +80,7 @@ endif
 #                    #
 ######################
 
-VFILES:=ch3.v
+VFILES:=ch3.v boolean_machine.v
 
 -include $(addsuffix .d,$(VFILES))
 .SECONDARY: $(addsuffix .d,$(VFILES))
